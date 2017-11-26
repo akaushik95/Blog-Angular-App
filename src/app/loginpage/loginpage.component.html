@@ -1,0 +1,25 @@
+<div *ngIf="loggedout" style="text-align: center" class="row">
+  <div class="col s12 m4">
+    <div style="padding: 10px">
+      <input style="width: 150px" type="text" placeholder="username" id="username" [(ngModel)]="username">
+    </div>
+  </div>
+  <div class="col s12 m4">
+    <div style="padding: 10px">
+      <input style="width: 150px" type="password" placeholder="password" id="password" [(ngModel)]="password">
+    </div>
+  </div>
+  <div class="col s12 m4">
+    <div style="padding: 10px">
+      <button class="waves-effect waves-light btn" (click)="verifyUser(username, password)">Sign in</button>
+    </div>
+  </div>
+
+</div>
+
+<div *ngIf="loggedin" style="text-align: center" class="form-inline">
+  <p>Welcome {{name}}</p>
+  <button class="waves-effect waves-light btn" (click)="logoutUser()">Logout</button>
+
+  <!--<button class="waves-effect waves-light btn">Sign up</button>-->
+</div>

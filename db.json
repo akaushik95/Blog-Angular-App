@@ -1,0 +1,90 @@
+{
+  "users": [
+    {
+      "username": "prateek",
+      "password": "1234",
+      "id": 1,
+      "favourite": [
+        12,
+        14,
+        15
+      ]
+    },
+    {
+      "username": "ashu",
+      "password": "1234",
+      "id": 2,
+      "favourite": [
+        14,
+        7,
+        2
+      ]
+    },
+    {
+      "username": "sunny",
+      "password": "1234",
+      "favourite": [
+        16
+      ],
+      "id": 3
+    },
+    {
+      "username": "kuki",
+      "password": "1234",
+      "favourite": [
+        2
+      ],
+      "id": 4
+    }
+  ],
+  "blogs": [
+    {
+      "id": 2,
+      "title": "Where does it come from?",
+      "body": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.",
+      "category": "Technical",
+      "createdBy": "prateek",
+      "createDate": ""
+    },
+    {
+      "title": "Manish Tiwari",
+      "body": "Kya baat hai tumhari",
+      "category": "Technical",
+      "createdBy": "ashu",
+      "createDate": "2017-11-25T07:48:53.160Z",
+      "id": 7
+    },
+    {
+      "title": "Ashu Kaushik",
+      "body": "Junior Associate Technology",
+      "category": "Technical",
+      "createdBy": "ashu",
+      "createDate": "2017-11-25T05:38:42.521Z",
+      "id": 12
+    },
+    {
+      "title": "Ford",
+      "body": "Ecosport Titanium",
+      "category": "Technical",
+      "createdBy": "prateek",
+      "createDate": "2017-11-25T05:45:56.088Z",
+      "id": 14
+    },
+    {
+      "title": "First Non-Tech Blog",
+      "body": "This is the first and only non-tecnical blog in my app",
+      "category": "NonTechnical",
+      "createdBy": "prateek",
+      "createDate": "2017-11-26T04:39:27.691Z",
+      "id": 15
+    },
+    {
+      "title": "First blog by SUNNY",
+      "body": "abcdefghijklmnopqrstuvwxyz",
+      "category": "NonTechnical",
+      "createdBy": "sunny",
+      "createDate": "2017-11-26T04:54:22.265Z",
+      "id": 16
+    }
+  ]
+}
